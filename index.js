@@ -49,19 +49,24 @@ function currentLine(katzDeliLine) {
     return "The line is currently empty."
       }
   for (var i = 0; i < numberInLine; i++) {
-  //  currentLine.push(i+1 + ". " + katzDeliLine[i])
       currentLine.push(` ${i+1}. ${katzDeliLine[i]}`)
-  //  var namePlace = i+1 + ". " + katzDeliLine[i]
-  //  currentLine.push(i+1)
-  //  currentLine.push(katzDeliLine[i]);
     console.log(currentLine)
-  //  console.log(namePlace)
       }
   return "The line is currently:" + currentLine
 }
 
 
 
+
+/*  
+
+//  var namePlace = i+1 + ". " + katzDeliLine[i]
+//  currentLine.push(i+1)
+//  currentLine.push(katzDeliLine[i]);
+  //  currentLine.push(i+1 + ". " + katzDeliLine[i])
+  //  console.log(namePlace)
+
+  */
   /*
   if (numberInLine === 0) {
     return "The line is currently empty."
