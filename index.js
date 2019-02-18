@@ -58,7 +58,7 @@ function currentLine(katzDeliLine) {
 
 
 
-/*  
+/*
 
 //  var namePlace = i+1 + ". " + katzDeliLine[i]
 //  currentLine.push(i+1)
