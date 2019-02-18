@@ -49,7 +49,7 @@ function currentLine(katzDeliLine) {
     return "The line is currently empty."
       }
   for (var i = 0; i < numberInLine; i++) {
-      currentLine.push(" "+i+1 + ". " + katzDeliLine[i])
+      currentLine.push( i+1 + ". " + katzDeliLine[i])
   //  var namePlace = i+1 + ". " + katzDeliLine[i]
   //  currentLine.push(i+1)
   //  currentLine.push(katzDeliLine[i]);
