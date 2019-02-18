@@ -53,8 +53,8 @@ function currentLine(katzDeliLine) {
   //  var namePlace = i+1 + ". " + katzDeliLine[i]
   //  currentLine.push(i+1)
   //  currentLine.push(katzDeliLine[i]);
-  //  console.log(currentLine)
-    console.log(namePlace)
+    console.log(currentLine)
+  //  console.log(namePlace)
       }
   return "The line is currently: " + namePlace
 }
