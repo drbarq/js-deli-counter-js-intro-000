@@ -35,6 +35,7 @@ function nowServing(katzDeliLine) {
 // **the idea was to avoid limiting the formatted string.  reguardless of what is in katzdeli line it would record and associate
 // **I think there are two issues 1) its nots pushing key value pairs, 2) im not calling the key value pairs in the return
 // its fixed now using template literals and interpolating the string
+// simply adding a space to the front of currentLine.push(i+1 + ". " + katzDeliLine[i]) didnt work and returned wrong place in line 
 
 function currentLine(katzDeliLine) {
   var numberInLine = katzDeliLine.length
@@ -68,7 +69,7 @@ function currentLine(katzDeliLine) {
 //  var namePlace = i+1 + ". " + katzDeliLine[i]
 //  currentLine.push(i+1)
 //  currentLine.push(katzDeliLine[i]);
-  //  currentLine.push(i+1 + ". " + katzDeliLine[i])
+  //  currentLine.push(i+1 + ". " + katzDeliLine[i])  
   //  console.log(namePlace)
 
   */
