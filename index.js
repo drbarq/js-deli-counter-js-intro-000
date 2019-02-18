@@ -69,7 +69,7 @@ function currentLine(katzDeliLine) {
 //  var namePlace = i+1 + ". " + katzDeliLine[i]
 //  currentLine.push(i+1)
 //  currentLine.push(katzDeliLine[i]);
-  //  currentLine.push(i+1 + ". " + katzDeliLine[i])  
+  //  currentLine.push(i+1 + ". " + katzDeliLine[i])
   //  console.log(namePlace)
 
   */
