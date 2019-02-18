@@ -39,6 +39,7 @@ function currentLine(katzDeliLine) {
 // currentLine will tell the person where they are inline.
 // It should create an object key value pair for each person and place in line
 // the console.log is just to see what is is doing
+// the idea was to avoid limiting the formatted string.  reguardless of what is in katzdeli line it would record and associate 
 // I think there are two issues 1) its nots pushing key value pairs, 2) im not calling the key value pairs in the return
 
 function currentLine(katzDeliLine) {
