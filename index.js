@@ -56,7 +56,7 @@ function currentLine(katzDeliLine) {
     console.log(currentLine)
   //  console.log(namePlace)
       }
-  return "The line is currently: " + namePlace
+  return "The line is currently: " + currentLine
 }
 
 
